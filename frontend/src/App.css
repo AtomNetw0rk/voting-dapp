@@ -142,7 +142,7 @@
   font-size: 13px;
   font-weight: 700;
 }
-.ptitle { margin: 0 0 14px; font-size: 16px; line-height: 1.5; flex: 1; }
+.ptitle { margin: 0 0 14px; font-size: 16px; line-height: 1.5; flex: 1; word-break: break-word; overflow-wrap: anywhere; }
 
 /* Progress bar */
 .bar { height: 8px; background: #232842; border-radius: 999px; overflow: hidden; }
@@ -167,9 +167,16 @@
   font-size: 13px;
   flex-wrap: wrap;
 }
-.etopic { font-weight: 700; color: #f6b545; }
-.evalue { font-family: ui-monospace, monospace; color: #9aa3c7; }
-
+.etopic { font-weight: 700; color: #f6b545; flex-shrink: 0; }
+.evalue {
+  font-family: ui-monospace, monospace;
+  color: #9aa3c7;
+  min-width: 0;
+  max-width: 100%;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
 .footer { text-align: center; color: #6b7398; font-size: 13px; margin-top: 34px; }
 
 /* Responsive */
