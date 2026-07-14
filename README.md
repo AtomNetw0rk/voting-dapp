@@ -4,6 +4,8 @@
 A full-stack decentralized voting application built on the **Stellar** network with **Soroban** smart contracts. Anyone can create a proposal and cast a single vote per proposal — every vote is recorded permanently on-chain.
 
 🔗 **Live demo:** https://voting-dapp-one-phi.vercel.app/
+🎥 **Demo video:** https://docs.google.com/videos/d/1fNckpjBH_6KeibTAmCs0JEK0iqryb7VVKcisuMIVemw/edit?usp=sharing
+
 
 ---
 
