@@ -43,7 +43,7 @@ no double vote)    proposals + votes)
 | Voting | `CBHUKSTU6JA2LFOMOLG5BXCW73QJPFVOMF6X4VB2DJPIDQLEWBCAA57Y` |
 
 - **Network:** Testnet
-- **Example transaction:** `PASTE_YOUR_TX_HASH_HERE`
+- **Example transaction:** [`7b82e32298ab108349d2182f9959d2862c989169396aa7ab7185eefb2d34808e`](https://stellar.expert/explorer/testnet/tx/7b82e32298ab108349d2182f9959d2862c989169396aa7ab7185eefb2d34808e)
 
 ---
 
